@@ -1,0 +1,18 @@
+{
+  "name": "pipeline-codex",
+  "interface": { "displayName": "Pipeline Codex" },
+  "plugins": [
+    {
+      "name": "pipeline",
+      "source": { "source": "url", "url": "https://github.com/IvanMurzak/pipeline-codex.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    },
+    {
+      "name": "taskflow",
+      "source": { "source": "url", "url": "https://github.com/IvanMurzak/taskflow-codex.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
