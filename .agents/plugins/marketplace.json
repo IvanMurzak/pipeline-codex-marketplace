@@ -1,5 +1,5 @@
 {
-  "name": "pipeline-codex",
+  "name": "pipeline",
   "interface": { "displayName": "Pipeline Codex" },
   "plugins": [
     {
