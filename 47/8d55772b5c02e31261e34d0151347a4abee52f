@@ -1,0 +1,21 @@
+.agents/plugins/marketplace.json
+  s_dde6afac338051::t_efa7cc1af87f15 2
+README.md
+  s_dde6afac338051::t_fec47a59e9ac50 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "478d55772b5c02e31261e34d0151347a4abee52f",
+  "prompts": {},
+  "sessions": {
+    "s_dde6afac338051": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_dde6afac338051",
+        "model": "unknown"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
