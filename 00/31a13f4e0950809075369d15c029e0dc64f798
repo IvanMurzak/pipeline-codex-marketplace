@@ -1,0 +1,19 @@
+.agents/plugins/marketplace.json
+  s_0634882bcd21ce::t_308b992ef20363 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "0031a13f4e0950809075369d15c029e0dc64f798",
+  "prompts": {},
+  "sessions": {
+    "s_0634882bcd21ce": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02c86-9005-7e70-8391-b1c89046349d",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
