@@ -1,0 +1,14 @@
+.agents/plugins/marketplace.json
+  h_8325a340bf5897 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "ae94c931d36f5dd1571c95a2dd76301077b2b286",
+  "prompts": {},
+  "humans": {
+    "h_8325a340bf5897": {
+      "author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
