@@ -1,0 +1,21 @@
+.agents/plugins/marketplace.json
+  s_50329d799ae552::t_231221b7b81f2e 7,13
+.github/workflows/validate.yml
+  s_50329d799ae552::t_6f0f9abf918b07 24-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8401ddd7eaeaf9a4b874f9996f1b3662601a00df",
+  "prompts": {},
+  "sessions": {
+    "s_50329d799ae552": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a49f-1a55-7041-a4ba-349972939306",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
