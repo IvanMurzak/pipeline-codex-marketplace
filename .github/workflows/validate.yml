@@ -21,5 +21,9 @@ jobs:
               policy = plugin.get('policy', {})
               assert plugin.get('name') and source.get('source') == 'url' and source.get('url')
               assert policy.get('installation') and policy.get('authentication') and plugin.get('category')
-              subprocess.run(['git', 'ls-remote', source['url'], source.get('ref', 'HEAD')], check=True)
+              result = subprocess.run(
+                  ['git', 'ls-remote', source['url'], f"refs/tags/{source['ref']}"],
+                  check=True, capture_output=True, text=True,
+              )
+              assert result.stdout.strip(), f"missing tag {source['ref']} for {plugin['name']}"
           PY
